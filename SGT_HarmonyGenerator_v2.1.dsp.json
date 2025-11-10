@@ -1,0 +1,278 @@
+{
+	"name": "SGT_HarmonyGenerator_v2.1",
+	"filename": "SGT_HarmonyGenerator_v2.1.dsp",
+	"version": "2.81.10",
+	"compile_options": "-a /opt/homebrew/Cellar/faust/2.81.10/share/faust/ca-qt.cpp -lang cpp -i -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0",
+	"library_list": ["/opt/homebrew/Cellar/faust/2.81.10/share/faust/stdfaust.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/signals.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/maths.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/platform.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/oscillators.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/basics.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/misceffects.lib","/opt/homebrew/Cellar/faust/2.81.10/share/faust/delays.lib"],
+	"include_pathnames": ["/opt/homebrew/Cellar/faust/2.81.10/share/faust","/usr/local/share/faust","/usr/share/faust",".","/Users/keegandewitt/Cursor/soleil/."],
+	"size": 524432,
+	"inputs": 2,
+	"outputs": 4,
+	"meta": [ 
+		{ "basics.lib/name": "Faust Basic Element Library" },
+		{ "basics.lib/version": "1.22.0" },
+		{ "compile_options": "-a /opt/homebrew/Cellar/faust/2.81.10/share/faust/ca-qt.cpp -lang cpp -i -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0" },
+		{ "delays.lib/name": "Faust Delay Library" },
+		{ "delays.lib/version": "1.2.0" },
+		{ "filename": "SGT_HarmonyGenerator_v2.1.dsp" },
+		{ "maths.lib/author": "GRAME" },
+		{ "maths.lib/copyright": "GRAME" },
+		{ "maths.lib/license": "LGPL with exception" },
+		{ "maths.lib/name": "Faust Math Library" },
+		{ "maths.lib/version": "2.9.0" },
+		{ "misceffects.lib/name": "Misc Effects Library" },
+		{ "misceffects.lib/version": "2.5.1" },
+		{ "name": "SGT_HarmonyGenerator_v2.1" },
+		{ "oscillators.lib/name": "Faust Oscillator Library" },
+		{ "oscillators.lib/version": "1.6.0" },
+		{ "platform.lib/name": "Generic Platform Library" },
+		{ "platform.lib/version": "1.3.0" },
+		{ "signals.lib/name": "Faust Signal Routing Library" },
+		{ "signals.lib/version": "1.6.0" }
+	],
+	"ui": [ 
+		{
+			"type": "vgroup",
+			"label": "SGT_HarmonyGenerator_v2.1",
+			"items": [ 
+				{
+					"type": "checkbox",
+					"label": "Harmony Control/Manual Mode (Override Preset)",
+					"varname": "fCheckbox0",
+					"shortname": "Harmony_Control_Manual_Mode_Override_Preset",
+					"address": "/SGT_HarmonyGenerator_v2.1/Harmony_Control_Manual_Mode__Override_Preset_",
+					"meta": [
+						{ "1": "" }
+					]
+				},
+				{
+					"type": "hslider",
+					"label": "Harmony Control/Manual Semitones",
+					"varname": "fHslider1",
+					"shortname": "Harmony_Control_Manual_Semitones",
+					"address": "/SGT_HarmonyGenerator_v2.1/Harmony_Control_Manual_Semitones",
+					"meta": [
+						{ "1": "" }
+					],
+					"init": 7,
+					"min": -24,
+					"max": 24,
+					"step": 1
+				},
+				{
+					"type": "hslider",
+					"label": "Harmony Control/Wet/Dry Mix",
+					"varname": "fHslider2",
+					"shortname": "Harmony_Control_Wet_Dry_Mix",
+					"address": "/SGT_HarmonyGenerator_v2.1/Harmony_Control_Wet_Dry_Mix",
+					"meta": [
+						{ "1": "" },
+						{ "style": "knob" }
+					],
+					"init": 0.5,
+					"min": 0,
+					"max": 1,
+					"step": 0.01
+				},
+				{
+					"type": "button",
+					"label": "Presets/A#0 - M2 Down",
+					"varname": "fButton1",
+					"shortname": "Presets_A_0_M2_Down",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_A_0_-_M2_Down",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 22" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/A0 - m3 Down",
+					"varname": "fButton3",
+					"shortname": "Presets_A0_m3_Down",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_A0_-_m3_Down",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 21" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/B0 - Octave Down",
+					"varname": "fButton10",
+					"shortname": "Presets_B0_Octave_Down",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_B0_-_Octave_Down",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 23" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/C#0 - P5 Up",
+					"varname": "fButton6",
+					"shortname": "Presets_C_0_P5_Up",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_C_0_-_P5_Up",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 13" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/D#0 - M3 Up",
+					"varname": "fButton4",
+					"shortname": "Presets_D_0_M3_Up",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_D_0_-_M3_Up",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 15" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/D0 - P4 Up",
+					"varname": "fButton8",
+					"shortname": "Presets_D0_P4_Up",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_D0_-_P4_Up",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 14" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/E0 - m3 Up",
+					"varname": "fButton2",
+					"shortname": "Presets_E0_m3_Up",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_E0_-_m3_Up",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 16" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/F#0 - P5 Down",
+					"varname": "fButton7",
+					"shortname": "Presets_F_0_P5_Down",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_F_0_-_P5_Down",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 18" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/F0 - M2 Up",
+					"varname": "fButton0",
+					"shortname": "Presets_F0_M2_Up",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_F0_-_M2_Up",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 17" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/G#0 - M3 Down",
+					"varname": "fButton5",
+					"shortname": "Presets_G_0_M3_Down",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_G_0_-_M3_Down",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 20" }
+					]
+				},
+				{
+					"type": "button",
+					"label": "Presets/G0 - P4 Down",
+					"varname": "fButton9",
+					"shortname": "Presets_G0_P4_Down",
+					"address": "/SGT_HarmonyGenerator_v2.1/Presets_G0_-_P4_Down",
+					"meta": [
+						{ "2": "" },
+						{ "midi": "key 19" }
+					]
+				},
+				{
+					"type": "hbargraph",
+					"label": "Debug Tools/Input Freq (Hz)",
+					"varname": "fHbargraph0",
+					"shortname": "Debug_Tools_Input_Freq_Hz",
+					"address": "/SGT_HarmonyGenerator_v2.1/Debug_Tools_Input_Freq__Hz_",
+					"meta": [
+						{ "4": "" }
+					],
+					"min": 0,
+					"max": 1000
+				},
+				{
+					"type": "hslider",
+					"label": "Debug Tools/OLA Crossfade Size (samples)",
+					"varname": "fHslider4",
+					"shortname": "Debug_Tools_OLA_Crossfade_Size_samples",
+					"address": "/SGT_HarmonyGenerator_v2.1/Debug_Tools_OLA_Crossfade_Size__samples_",
+					"meta": [
+						{ "4": "" }
+					],
+					"init": 256,
+					"min": 128,
+					"max": 512,
+					"step": 1
+				},
+				{
+					"type": "hslider",
+					"label": "Debug Tools/OLA Window Size (samples)",
+					"varname": "fHslider3",
+					"shortname": "Debug_Tools_OLA_Window_Size_samples",
+					"address": "/SGT_HarmonyGenerator_v2.1/Debug_Tools_OLA_Window_Size__samples_",
+					"meta": [
+						{ "4": "" }
+					],
+					"init": 2048,
+					"min": 1024,
+					"max": 4096,
+					"step": 1
+				},
+				{
+					"type": "hbargraph",
+					"label": "Debug Tools/Output Freq (Hz)",
+					"varname": "fHbargraph1",
+					"shortname": "Debug_Tools_Output_Freq_Hz",
+					"address": "/SGT_HarmonyGenerator_v2.1/Debug_Tools_Output_Freq__Hz_",
+					"meta": [
+						{ "4": "" }
+					],
+					"min": 0,
+					"max": 2000
+				},
+				{
+					"type": "checkbox",
+					"label": "Debug Tools/Test Tone Enable",
+					"varname": "fCheckbox1",
+					"shortname": "Debug_Tools_Test_Tone_Enable",
+					"address": "/SGT_HarmonyGenerator_v2.1/Debug_Tools_Test_Tone_Enable",
+					"meta": [
+						{ "4": "" }
+					]
+				},
+				{
+					"type": "hslider",
+					"label": "Debug Tools/Test Tone Freq",
+					"varname": "fHslider0",
+					"shortname": "Debug_Tools_Test_Tone_Freq",
+					"address": "/SGT_HarmonyGenerator_v2.1/Debug_Tools_Test_Tone_Freq",
+					"meta": [
+						{ "4": "" },
+						{ "unit": "Hz" }
+					],
+					"init": 440,
+					"min": 100,
+					"max": 1000,
+					"step": 1
+				}
+			]
+		}
+	]
+}
