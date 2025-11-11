@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (PURE MONO REGRESSION TEST)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 8.0 FIXED (Mono Output Diagnostic)
 // STATUS: ✅ ZERO ERRORS! Mono isolation test ready!
 // =================================================================================

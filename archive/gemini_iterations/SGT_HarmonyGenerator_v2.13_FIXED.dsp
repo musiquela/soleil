@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 2.13 FIXED (Scope Error Corrected + Syntax Fixes)
 // STATUS: All compilation errors fixed
 // =================================================================================

@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (Multi-Channel MIDI Architecture)
-// AUTHOR: Claude Code + Gemini Architecture
+// AUTHOR: Gemini Architecture
 // VERSION: 2.1 (DUAL MIDI CHANNEL CONTROL)
 // STATUS: MATHEMATICALLY VERIFIED (659.255 Hz P5 Shift Confirmed)
 // =================================================================================

@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 2.5 FIXED (No crashes, proper signal flow)
 // STATUS: Corrected meter output routing
 // =================================================================================

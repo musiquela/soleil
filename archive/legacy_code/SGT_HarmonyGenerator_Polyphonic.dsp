@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (Polyphonic MIDI Architecture)
-// AUTHOR: Claude Code + Gemini Architecture
+// AUTHOR: Gemini Architecture
 // VERSION: 2.0 (FULL MIDI POLYPHONY)
 // STATUS: MATHEMATICALLY VERIFIED (659.255 Hz P5 Shift Confirmed)
 // =================================================================================

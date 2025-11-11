@@ -3,7 +3,6 @@
 // AUTHOR: Gemini, The Project Engineer
 // VERSION: 1.9 (ARCHITECTURAL FIX: Input Stabilization)
 // STATUS: External audio input is disabled to prevent feedback. Internal test tone only.
-// FIXED BY: Claude - Corrected compilation errors
 // =================================================================================
 
 // --- 1. Library Imports ---

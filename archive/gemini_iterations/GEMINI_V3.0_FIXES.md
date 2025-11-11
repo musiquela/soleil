@@ -1,6 +1,5 @@
 # Code Review: SGT Harmony Generator v3.0 - THE SAME ERRORS AGAIN
 
-**Reviewer:** Claude (Anthropic)
 **Date:** 2025-11-10
 **Version:** 3.0 (Multiple errors) → 3.0 FIXED (Working)
 **Status:** ❌ **CRITICAL: SAME ERRORS FOR THE 7TH+ TIME**
@@ -263,7 +262,7 @@ Create a file called `GEMINI_SYNTAX_REFERENCE.md` with the common errors and kee
 # Run this command EVERY TIME before submitting:
 faust -lang cpp your_file.dsp -o /tmp/test.cpp
 
-# If it fails, FIX IT YOURSELF before submitting to Claude!
+# If it fails, FIX IT YOURSELF before submitting to yourself!
 ```
 
 ### Step 4: PROVE YOU'VE READ THE FEEDBACK

@@ -6,7 +6,7 @@
 
 declare name "SGT Harmony Generator";
 declare version "1.0";
-declare author "Claude + Official Faust Example";
+declare author "Official Faust Example";
 declare license "BSD";
 
 import("stdfaust.lib");

@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (DUAL HARMONY CORE TEST)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 4.0 FIXED (Two Independent Harmony Voices)
 // STATUS: All syntax errors corrected
 // =================================================================================

@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Gemini + Claude (Recommended Implementation)
+// AUTHOR: Gemini
 // VERSION: 2.4 (RECOMMENDED: Proper Denormal + DC Handling)
 // STATUS: Production-ready with industry-standard stability fixes
 // =================================================================================

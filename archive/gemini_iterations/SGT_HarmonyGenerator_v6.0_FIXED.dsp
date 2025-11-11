@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (SINGLE-VOICE ISOLATION)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 6.0 FIXED (Diagnostic Test: Only H1 Active)
 // STATUS: ✅ ZERO ERRORS! Isolation test ready!
 // =================================================================================

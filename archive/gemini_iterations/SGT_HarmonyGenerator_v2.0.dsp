@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Gemini, The Project Engineer (Verified by Claude Code)
+// AUTHOR: Gemini, The Project Engineer
 // VERSION: 2.0 (PRODUCTION READY - All Syntax Errors Fixed)
 // STATUS: External audio input DISABLED for zero feedback. Test tone only.
 // =================================================================================

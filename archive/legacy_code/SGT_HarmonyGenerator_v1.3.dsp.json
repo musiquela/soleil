@@ -9,7 +9,7 @@
 	"inputs": 2,
 	"outputs": 2,
 	"meta": [ 
-		{ "author": "Claude + Official Faust Example" },
+		{ "author": "Official Faust Example" },
 		{ "compile_options": "-a /opt/homebrew/Cellar/faust/2.81.10/share/faust/ca-qt.cpp -lang cpp -i -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 0" },
 		{ "delays.lib/name": "Faust Delay Library" },
 		{ "delays.lib/version": "1.2.0" },

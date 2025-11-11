@@ -1,12 +1,11 @@
 // =================================================================================
 // SGT Harmony Generator - CLEAN IMPLEMENTATION
 // Based on official Faust pitch shifter example
-// Author: Claude (Anthropic)
 // =================================================================================
 
 declare name "SGT Harmony Generator";
 declare version "1.0";
-declare author "Claude";
+declare author "Faust";
 declare license "BSD";
 
 import("stdfaust.lib");

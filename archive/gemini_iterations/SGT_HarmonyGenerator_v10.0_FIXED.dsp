@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (SIGNAL INTEGRITY TEST)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 10.0 FIXED (Baseline Test: No Pitch Shifting)
 // STATUS: ✅ ZERO ERRORS! Pure signal path test!
 // =================================================================================

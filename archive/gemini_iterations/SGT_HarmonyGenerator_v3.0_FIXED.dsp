@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (MINIMAL CORE TEST)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 3.0 FIXED (Minimal DSP, Max Stability)
 // STATUS: All syntax errors corrected
 // =================================================================================

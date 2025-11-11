@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Claude Code + Gemini Architecture
+// AUTHOR: Gemini Architecture
 // VERSION: 1.5 (C0-B0 Preset Mapping)
 // STATUS: Uses Verified Single-Channel Core Architecture
 // DESCRIPTION: Monophonic TDHS harmonizer with precision math. The C0-B0 octave

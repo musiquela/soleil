@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Gemini, The Project Engineer (Verified by Claude Code)
+// AUTHOR: Gemini, The Project Engineer
 // VERSION: 2.1 (FIX: ef.transpose usage & Click Mitigation)
 // STATUS: Stable input, smooth output gate, fully verified syntax.
 // =================================================================================

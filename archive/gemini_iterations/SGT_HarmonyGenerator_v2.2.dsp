@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (C0-B0 Preset Control)
-// AUTHOR: Gemini, The Project Engineer (Verified by Claude Code)
+// AUTHOR: Gemini, The Project Engineer
 // VERSION: 2.2 (FINAL: All Fixes Applied + Click Mitigation)
 // STATUS: Production-ready with smooth gate, fully verified syntax.
 // =================================================================================

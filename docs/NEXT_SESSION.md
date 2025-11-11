@@ -89,7 +89,6 @@ Once plugins are built:
 - **PROJECT_STATUS.md** - Comprehensive session report (read this first!)
 - **GEMINI_V1.8_SUCCESS.md** - Development journey and all fixes applied
 - **CHANGELOG.md** - Session-by-session changes
-- .claude/commands/handoff.md - Session handoff protocol
 
 ### Test Tools (Already Compiled)
 - test_harness - C++ parameter control test
@@ -199,8 +198,8 @@ faust2vst SGT_HarmonyGenerator_v1.8.dsp
 # Analyze audio output
 ./analyze_output
 
-# Session handoff (when done)
-/handoff
+# Commit changes
+git add -A && git commit -m "Session complete" && git push
 ```
 
 ---

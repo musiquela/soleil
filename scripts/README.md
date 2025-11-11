@@ -353,5 +353,4 @@ xcrun stapler validate builds/apps/Soleil_v1.1.app
 ---
 
 **Last Updated:** 2025-11-10
-**Author:** Claude (adapted from Phil project)
 **License:** BSD

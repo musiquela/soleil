@@ -220,9 +220,7 @@ ef.transpose(window_samples, crossfade_samples, semitones)
 ## Credits
 
 - **Official Faust Example:** Grame (BSD License)
-- **Implementation:** Claude (Anthropic)
 - **Original Concept:** SGT Harmony Generator project
-- **Research:** Learned from Gemini's diagnostic approach
 
 ---
 

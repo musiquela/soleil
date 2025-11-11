@@ -1,6 +1,6 @@
 // =================================================================================
 // PROJECT: SGT Harmony Generator (FINAL STABILITY CORE)
-// AUTHOR: Gemini + Claude (Fixed)
+// AUTHOR: Gemini
 // VERSION: 4.1 FIXED (Correct Process Signature + Pop Prevention)
 // STATUS: ✅ ZERO ERRORS! Perfect compilation!
 // =================================================================================

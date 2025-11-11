@@ -308,13 +308,11 @@ faust2lv2 Soleil_v1.0.dsp
 ## 🏆 Credits
 
 **Product:** Soleil
-**Development:** Claude (Anthropic)
 **Based on:** Official Faust Examples by Grame
 **License:** BSD
 
 **Special Thanks:**
 - Grame for Faust and official examples
-- Gemini AI for diagnostic methodology (even though code didn't work!)
 
 ---
 
