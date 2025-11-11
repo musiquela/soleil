@@ -2,6 +2,7 @@
 *.app/
 *.vst/
 *.component/
+!builds/plugins/*.component/
 *.lv2/
 faust.*/
 
@@ -16,8 +17,11 @@ faust.*/
 
 # Build directories
 build/
-builds/
+builds/apps/
+builds/tmp/
+!builds/plugins/
 dist/
+Soleil_v1.2/
 
 # Distribution packages
 *.zip
